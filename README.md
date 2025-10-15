@@ -31,6 +31,8 @@ npm run preview  # Preview production build
 ```
 
 ## Scripts
+```
 npm run dev	-> Start Vite dev server
 npm run build	-> Build app for production
 npm run preview	-> Preview production build locally
+```
