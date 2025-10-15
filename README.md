@@ -34,15 +34,3 @@ npm run preview  # Preview production build
 npm run dev	-> Start Vite dev server
 npm run build	-> Build app for production
 npm run preview	-> Preview production build locally
-
-## Folder Structure
-Chef-Claude/
-├── src/
-│   ├── components/  # Reusable UI components
-│   ├── pages/       # App pages
-│   ├── assets/      # Images, icons, etc.
-│   └── main.jsx     # Entry point
-├── index.html
-├── package.json
-├── vite.config.js
-└── .env
