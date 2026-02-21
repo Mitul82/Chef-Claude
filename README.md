@@ -1,12 +1,38 @@
-# React + Vite
+# Chef Claude App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern recipe management and cooking assistant web app built with React and Vite. Chef Claude helps users explore, organize, and practice cooking recipes with a clean interface and fast performance.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse, add, and edit recipes
+- View detailed cooking instructions
+- Fast development with Vite
+- Modern UI with reusable React components
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Vite  
+- **Styling:** CSS / Tailwind  
+- **Package Manager:** npm or yarn
+
+## Setup
+
+```bash
+git clone https://github.com/<your-username>/Chef-Claude.git
+cd Chef-Claude
+npm install
+npm run dev
+```
+
+## Build and Preview
+```bash
+npm run build    # Build for production
+npm run preview  # Preview production build
+```
+
+## Scripts
+```
+npm run dev	-> Start Vite dev server
+npm run build	-> Build app for production
+npm run preview	-> Preview production build locally
+```
